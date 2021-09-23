@@ -5,6 +5,7 @@ import android.text.TextUtils
 import android.util.Patterns
 import android.widget.Button
 import android.widget.EditText
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 
@@ -70,7 +71,7 @@ class FormActivity : AppCompatActivity() {
             return;
         }
         var user: User = User(name, email, password1);
-        
+        Toast.makeText(this, "Welcome, ${user.name}, to my SignUpForm application!", Toast.LENGTH_LONG).show()
 
 
     }
