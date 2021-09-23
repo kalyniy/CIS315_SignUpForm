@@ -70,7 +70,7 @@ class FormActivity : AppCompatActivity() {
             return;
         }
         var user: User = User(name, email, password1);
-
+        
 
 
     }
