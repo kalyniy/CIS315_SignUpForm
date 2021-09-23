@@ -1,3 +1,5 @@
+package edu.temple.singupform
+
 open class User(_name: String, _email: String, _password: String)
 {
     var name = _name
